@@ -1,0 +1,1 @@
+Este é um projeto aspnet core mvc 3.1 criado pra demonstar como usar ViewComponents. É um projeto simple e bem objetivo, explicado neste artigo 'https://medium.com/@renanosoriogd/como-usar-viewcomponents-no-aspnet-core-3-1-mvc-c27edbfae19a'
