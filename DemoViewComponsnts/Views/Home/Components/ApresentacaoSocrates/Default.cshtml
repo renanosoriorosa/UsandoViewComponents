@@ -1,0 +1,13 @@
+﻿<div>
+    <img src="~/socrates.png" alt="Socrates" />
+    <h1>Socrates</h1>
+    <p>Só sei que nada sei!</p>
+    <button onclick="GetDetalhesSocrates()" type="button" class="btn-success">Detalhes</button>   
+</div>
+<script>
+    function GetDetalhesSocrates() {
+        $("#Content").load("/Home/GetDetalhesSocrates", function (response, status, xhr) {
+            $("#Modal").modal();
+        });
+    }
+</script>
